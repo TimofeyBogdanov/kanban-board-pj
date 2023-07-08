@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 55px;
+  background-color: rgba(0, 103, 163, 1);
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+}
+
+.tasksWrapper {
+  display: flex;
+}
+
+.footer p {
+  margin: 17px;
+}

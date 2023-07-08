@@ -1,0 +1,83 @@
+.list {
+  background-color: rgba(235, 236, 240, 1);
+  width: 23%;
+  padding: 2px;
+  margin: 20px 15px;
+  border-radius: 10px;
+  max-height: 600px;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1100px) {
+  .list {
+    width: 80%;
+  }
+}
+
+.listTitle {
+  margin: 12px;
+}
+
+.list p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.tasksWrapper {
+  display: block;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.task {
+  margin: 8px 12px;
+  padding: 7px 8px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.taskLink {
+  text-decoration: none;
+  color: black;
+}
+
+.taskLink:hover {
+  text-decoration: underline;
+}
+
+.buttonWrapper {
+  margin: 20px 12px 12px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+  .buttonWrapper {
+    margin: 20px 8px 8px;
+  }
+}
+
+.addCardButton {
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.addCardButton:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.addCardButtonDisabled {
+  padding: 5px;
+  border: 0;
+  color: rgb(177, 173, 173);
+  font-size: 18px;
+  font-family: 'Roboto';
+}

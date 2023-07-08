@@ -1,0 +1,46 @@
+.form {
+  background-color: white;
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border-radius: 5px;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.input:focus {
+  border-bottom: 0;
+}
+
+.submit {
+  margin: 20px 12px 12px 12px;
+  padding: 5px;
+  background-color: rgba(0, 121, 191, 1);
+  font-size: 18px;
+  font-family: 'Roboto';
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.cancel {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(163, 164, 168, 0.5);
+  font-size: 18px;
+  font-family: 'Roboto';
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}

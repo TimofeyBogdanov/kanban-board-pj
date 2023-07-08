@@ -1,0 +1,12 @@
+.main {
+  max-width: 100%;
+  min-height: calc(100vh - 150px);
+  padding: 20px 0;
+  background-color: rgba(0, 121, 191, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    min-height: calc(100vh - 95px);
+  }
+}
